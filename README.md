@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python-selenium-project
 creating automation project for a web store
 
@@ -42,3 +43,7 @@ To contribute or run the tests locally, follow these steps:
 Feel free to explore and contribute to the project to enhance Magento testing capabilities.
 
 
+=======
+# Playwright-python-selenium-project
+creating automation project for a web store in playwright with python and pytest
+>>>>>>> 7338100d5e67afb07544649a786ca6b3382deb02
