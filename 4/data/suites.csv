@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 25 14:27:37 GMT 2024","Mon Mar 25 14:27:37 GMT 2024","808","tests","signup_test","TestSignUp","","","test_page_loaded",""
