@@ -1,4 +1,4 @@
-# Python-selenium-project
+# Python-Playwright-project
 creating automation project for a web store
 
 ## Description
@@ -18,7 +18,7 @@ Testers can conduct thorough functionality testing by adding items to the cart, 
 
 - **Programming Language:** [Python](https://www.python.org/) 🐍
 - **Testing Framework:** [Pytest](https://docs.pytest.org/en/stable/) 🧪
-- **Automation Framework:** [Selenium WebDriver](https://www.selenium.dev/documentation/en/) ⚙️
+- **Automation Framework:** [Playwright](https://playwright.dev/python/) ⚙️
 
 ## Tasks
 
