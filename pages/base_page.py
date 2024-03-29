@@ -1,4 +1,4 @@
-from playwright.sync_api import Page, Locator, ElementHandle
+from playwright.sync_api import Page
 import random
 import string
 

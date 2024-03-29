@@ -1,14 +1,9 @@
-import os
-from urllib import request
-
-import playwright
 import pytest
 from _pytest.config import Config
-from selenium.webdriver.chrome.options import Options
+
 import allure
-from selenium import webdriver
+
 from applitools.selenium import Eyes
-from applitools.common import MatchLevel
 
 
 @pytest.fixture(autouse=True)
@@ -36,7 +31,6 @@ def pytest_exception_interact(report):
         if "api" not in report.keywords:
             screenshot = page.screenshot()
             allure.attach(screenshot, name="screenshot", attachment_type=allure.attachment_type.PNG)
-
 
 
 def pytest_configure(config: Config) -> None:
