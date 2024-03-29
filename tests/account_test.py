@@ -1,15 +1,7 @@
-import time
-
 import allure
 import pytest
-from selenium.common import NoSuchElementException, WebDriverException
-
-from pages.cart_page import CartPage
-from pages.mini_cart_page import MiniCartPage
-from pages.product_page import ProductPage
 from pages.top_bar import TopBar
-from configs import config_login
-from configs import config_cart
+
 
 
 @allure.feature("Cart")

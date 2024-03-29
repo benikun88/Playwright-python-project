@@ -1,9 +1,6 @@
 import allure
 from playwright.sync_api import Page
 from selenium.common import NoSuchElementException, TimeoutException
-from selenium.webdriver.chrome.webdriver import WebDriver
-from selenium.webdriver.common.by import By
-
 from pages.account_page import AccountPage
 from pages.base_page import BasePage
 

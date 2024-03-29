@@ -1,5 +1,3 @@
-# Your test script
-
 import allure
 import pytest
 from http import HTTPStatus

@@ -1,9 +1,8 @@
 import allure
 import pytest
 from configs import config_login
-from pages.login_page import LoginPage
 from pages.top_bar import TopBar
-from playwright.sync_api import expect
+
 
 
 @allure.feature("Login")
