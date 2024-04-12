@@ -1,6 +1,5 @@
 import os
 from urllib import request
-
 import playwright
 import pytest
 from _pytest.config import Config
@@ -23,8 +22,6 @@ def setup(request, playwright):
         # page.set_viewport_size({"width": 1920, "height": 1080})
         page.goto("https://magento.softwaretestingboard.com/")
         request.cls.page = page  # Provide the page object to the test class
-        get_started_link = page.locator("div[class='panel header'] li[data-label='or'] a")
-        # get_started_link.click()
         yield
         browser.close()
     else:
